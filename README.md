@@ -40,13 +40,30 @@ This project aims to develop a road sign identification system based on artifici
       </li>
     </ul>
     In the context of traffic sign detection project, Python is used to:
-
 <ul>
 <li>
   <strong>Training the YOLOv8 model:</strong>
   The YOLOv8 model will be trained in Python using the Ultralytics YOLOv8 library.
 </li>
-</ul></p>
+</ul>
+<br>
+<br>
+
+ <strong> <li>YOLOv8 is a computer vision model for object detection developed by Ultralytics.</strong>
+ It was released in 2022 and is considered one of the most accurate and fastest models available.
+YOLOv8 is based on a convolutional neural network architecture called Darknet-53. The network consists of 53 convolution layers, each of which is followed by a max-pooling unit.
+YOLOv8 can detect and classify objects in real time. It was trained on an image and video dataset that includes a variety of objects, including people, vehicles, animals and everyday objects.
+In the context of the traffic sign detection project, YOLOv8 is used to:
+<ul>
+<li>Traffic sign detection: YOLOv8 will be used to detect and classify traffic signs in images and videos.</li>
+To use YOLOv8 for traffic sign detection, you need:
+
+<li>Download the YOLOv8 model: The YOLOv8 model is available for download from the Ultralytics website.</li>
+<li>Prepare the dataset: The dataset must include images and videos of traffic signs.</li>
+<li>Train the model: The YOLOv8 model can be trained using the prepared dataset.</li>
+Once the YOLOv8 model is trained, it can be used to detect traffic signs in images and videos.
+</ul>
+</p>
   <h2>Risultati attesi</h2>
   <p>
     <strong>Risultati attesi:</strong>
