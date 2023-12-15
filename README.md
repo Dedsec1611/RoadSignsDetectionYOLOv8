@@ -64,17 +64,6 @@ To use YOLOv8 for traffic sign detection, you need:
 Once the YOLOv8 model is trained, it can be used to detect traffic signs in images and videos.
 </ul>
 </p>
-  <h2>Risultati attesi</h2>
-  <p>
-    <strong>Risultati attesi:</strong>
-    <br>
-    Descrizione dei risultati attesi dal progetto.
-  </p>
-  <h2>Applicazioni</h2>
-  <p>
-    <strong>Applicazioni del progetto:</strong>
-    <br>
-    Descrizione delle possibili applicazioni del progetto.
-  </p>
+  <h2>Code implementation</h2>
 </body>
 </html>
