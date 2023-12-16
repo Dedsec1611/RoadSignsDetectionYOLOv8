@@ -97,9 +97,8 @@ Once the YOLOv8 model is trained, it can be used to detect traffic signs in imag
   <img src="asset\code-img\prediction.png" alt="Predict model" width="100%"><br>
   <p>Finally we use the product model for prediction on our data. In our case we used the model for the detection of road signs in a video in which there are real cases.<p><br>
 
-  <video width="80%" height="400" controls>
-    <source src="asset\code-img\video-yolov8s-compresso.mp4" type="video/mp4">
-  </video>	
+ 
+  <p>The result of the prediction can be consulted in the assets al <a href = "asset\code-img\video-yolov8s-compresso.mp4">link.</a></p>
 
   
 </body>
