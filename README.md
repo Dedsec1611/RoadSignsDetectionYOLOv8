@@ -65,5 +65,39 @@ Once the YOLOv8 model is trained, it can be used to detect traffic signs in imag
 </ul>
 </p>
   <h2>Code implementation</h2>
+  <p>Below is a description of the code used to implement the project in Google Colab:</p><br>
+  <img src="asset\code-img\import-lib.png" alt="Import lib" width="100%"><br>
+  <p>As a first step we import the basic libraries such as os for the file paths, glob and IPython.display to show the results of the train in the subsequent steps.</p><br>
+
+  <img src="asset\code-img\check-gpu.png" alt="Check gpu" width="100%"><br>
+  <p>To verify the correct access status to the GPU we install the nvidia-smi library.</p><br>
+  
+  <img src="asset\code-img\mounted-drive.png" alt="Mounted Google Drive" width="100%"><br>
+  <p>We use Colab's compatibility with Google Drive to access the account on which the dataset on which to create our model is present.</p><br>
+  
+  <img src="asset\code-img\install-yolo.png" alt="Install yolo" width="100%">
+  <img src="asset\code-img\check-install.png" alt="Check yolo" width="100%"><br>
+  <p>We install references to the latest version of YOLOv8 and verify correct installation.</p><br>
+
+  <img src="asset\code-img\start-train.png" alt="Start train" width="100%"><br>
+  <p>At this point we have all the necessary tools to start training the model using YOLOv8's Train mode.
+   The current configuration involves training the model in 10 epochs using the default image size, i.e. 640.</p><br>
+
+  <img src="asset\code-img\resume-train.png" alt="Resume train" width="100%"><br>
+  <p>For the purposes of the project, a further train of the model was carried out once the dataset had been expanded.</p><br>
+  
+   <img src="asset\code-img\print-matrix.png" alt="Resume train" width="100%"><br>
+   <img src="asset\code-img\check-model-prevision.png" alt="Check model" width="100%">
+   <img src="asset\code-img\print-validation.png" alt="Print prevision" width="100%">
+  <p>Once the model has been trained, we proceed with viewing the results. We print the confusion matrix, the prediction tests and the train graphs to determine whether the expected results have actually been achieved.</p><br>
+
+  <img src="asset\code-img\valid-model.png" alt="Valid model" width="100%"><br>
+  <p>The next step is data validation, taking advantage of YOLOv8's Validation mode, a fundamental step for the machine learning pipeline, as it allows you to evaluate the quality of the trained models.</p><br>
+
+  <img src="asset\code-img\prediction.png" alt="Predict model" width="100%"><br>
+  <p>Finally we use the product model for prediction on our data. In our case we used the model for the detection of road signs in a video in which there are real cases.<p><br>
+
+
+  
 </body>
 </html>
